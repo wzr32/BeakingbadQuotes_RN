@@ -1,15 +1,13 @@
 {
   "expo": {
-    "name": "my-new-project",
-    "slug": "my-new-project",
+    "name": "Breaking bad quotes",
+    "slug": "breaking-bad-quotes",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -23,6 +21,12 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "description": "React native first practice",
+    "githubUrl": "https://github.com/wzr32/Bbquotes_react-native.git",
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
     }
   }
 }
